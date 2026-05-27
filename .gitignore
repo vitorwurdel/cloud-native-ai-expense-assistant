@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# User secrets / local config
+appsettings.Local.json
+
+# Logs
+*.log
+
+# Docker volumes / temp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

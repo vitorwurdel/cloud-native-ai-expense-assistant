@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "zvJSGDjET4k=",
+  "dgSpecHash": "b0JKNb6JG5U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Infrastructure\\ExpenseAssistant.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Infrastructure\\ExpenseAssistant.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.16\\microsoft.entityframeworkcore.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.16\\microsoft.entityframeworkcore.abstractions.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.16\\microsoft.entityframeworkcore.analyzers.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.1\\microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.16\\microsoft.extensions.caching.abstractions.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.16\\microsoft.extensions.caching.memory.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.16\\microsoft.extensions.dependencyinjection.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.16\\microsoft.extensions.dependencyinjection.abstractions.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.logging\\9.0.16\\microsoft.extensions.logging.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.16\\microsoft.extensions.logging.abstractions.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.options\\9.0.16\\microsoft.extensions.options.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.16\\microsoft.extensions.primitives.9.0.16.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
+    "C:\\Users\\vtzao\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

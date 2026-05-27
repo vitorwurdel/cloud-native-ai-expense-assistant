@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {}
+    "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {
+    "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
         "projectName": "ExpenseAssistant.Domain",
-        "projectPath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
+        "projectPath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
         "packagesPath": "C:\\Users\\vtzao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\obj\\",
+        "outputPath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

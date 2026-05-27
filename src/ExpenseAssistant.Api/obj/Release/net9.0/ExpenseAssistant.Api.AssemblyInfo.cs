@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("7ba05b84-30be-43dd-8660-66fcc0828f77")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f3182a891c0887b94416d185e4ad58a134cb750")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e47bd6165fcb0ab2122e66493afdf99a4624a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpenseAssistant.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+270e3ed219f9e908c9dc3375291b6c1b70aaca82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e47bd6165fcb0ab2122e66493afdf99a4624a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpenseAssistant.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpenseAssistant.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

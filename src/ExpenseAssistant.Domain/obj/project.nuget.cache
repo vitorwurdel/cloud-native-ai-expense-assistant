@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6azRdwmutrE=",
+  "dgSpecHash": "6R7N0I2LCgw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
+  "projectFilePath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

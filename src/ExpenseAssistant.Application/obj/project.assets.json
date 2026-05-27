@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Application\\ExpenseAssistant.Application.csproj",
+      "projectUniqueName": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Application\\ExpenseAssistant.Application.csproj",
       "projectName": "ExpenseAssistant.Application",
-      "projectPath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Application\\ExpenseAssistant.Application.csproj",
+      "projectPath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Application\\ExpenseAssistant.Application.csproj",
       "packagesPath": "C:\\Users\\vtzao\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {
-              "projectPath": "C:\\Users\\vtzao\\Source\\Repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj"
+            "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj": {
+              "projectPath": "C:\\Users\\vtzao\\source\\repos\\cloud-native-ai-expense-assistant\\src\\ExpenseAssistant.Domain\\ExpenseAssistant.Domain.csproj"
             }
           }
         }

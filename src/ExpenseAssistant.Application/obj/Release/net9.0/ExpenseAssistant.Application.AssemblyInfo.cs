@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpenseAssistant.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f3182a891c0887b94416d185e4ad58a134cb750")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e47bd6165fcb0ab2122e66493afdf99a4624a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpenseAssistant.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpenseAssistant.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
