@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e47bd6165fcb0ab2122e66493afdf99a4624a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+116e0b6262a8e6176dd087db9b25a5a219946c85")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpenseAssistant.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

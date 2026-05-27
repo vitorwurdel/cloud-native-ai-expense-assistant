@@ -3,6 +3,8 @@ using ExpenseAssistant.Infrastructure.AI;
 using ExpenseAssistant.Infrastructure.Persistence;
 using ExpenseAssistant.Infrastructure.VectorStore;
 using Microsoft.EntityFrameworkCore;
+using ExpenseAssistant.Application.Processing;
+using ExpenseAssistant.Infrastructure.Processing;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +25,9 @@ builder.Services.Configure<QdrantOptions>(
 builder.Services.AddHttpClient<IEmbeddingService, OpenAiEmbeddingService>();
 builder.Services.AddHttpClient<ILanguageModelService, OpenAiLanguageModelService>();
 builder.Services.AddHttpClient<IVectorStoreService, QdrantVectorStoreService>();
+
+builder.Services.AddSingleton<IDocumentProcessingQueue, InMemoryDocumentProcessingQueue>();
+builder.Services.AddHostedService<DocumentProcessingWorker>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

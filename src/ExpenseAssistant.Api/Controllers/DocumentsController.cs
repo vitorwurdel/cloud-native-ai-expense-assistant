@@ -1,5 +1,5 @@
-﻿using ExpenseAssistant.Application.Common;
-using ExpenseAssistant.Application.Documents;
+﻿using ExpenseAssistant.Application.Documents;
+using ExpenseAssistant.Application.Processing;
 using ExpenseAssistant.Domain.Entities;
 using ExpenseAssistant.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
@@ -12,17 +12,14 @@ namespace ExpenseAssistant.Api.Controllers;
 public class DocumentsController : ControllerBase
 {
     private readonly AppDbContext _dbContext;
-    private readonly IEmbeddingService _embeddingService;
-    private readonly IVectorStoreService _vectorStoreService;
+    private readonly IDocumentProcessingQueue _processingQueue;
 
     public DocumentsController(
         AppDbContext dbContext,
-        IEmbeddingService embeddingService,
-        IVectorStoreService vectorStoreService)
+        IDocumentProcessingQueue processingQueue)
     {
         _dbContext = dbContext;
-        _embeddingService = embeddingService;
-        _vectorStoreService = vectorStoreService;
+        _processingQueue = processingQueue;
     }
 
     [HttpPost]
@@ -49,38 +46,26 @@ public class DocumentsController : ControllerBase
     }
 
     [HttpPost("{id:guid}/process")]
-    public async Task<ActionResult<ExpenseDocumentResponse>> Process(
+    public async Task<IActionResult> Process(
         Guid id,
         CancellationToken cancellationToken)
     {
-        var document = await _dbContext.ExpenseDocuments
-            .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+        var exists = await _dbContext.ExpenseDocuments
+            .AsNoTracking()
+            .AnyAsync(x => x.Id == id, cancellationToken);
 
-        if (document is null)
+        if (!exists)
             return NotFound();
 
-        var searchableText = $"""
-        Title: {document.Title}
-        Category: {document.Category}
-        Amount: {document.Amount} {document.Currency}
-        Content: {document.Content}
-        """;
-
-        var embedding = await _embeddingService.GenerateEmbeddingAsync(
-            searchableText,
+        await _processingQueue.EnqueueAsync(
+            new ProcessDocumentJob(id),
             cancellationToken);
 
-        await _vectorStoreService.UpsertDocumentEmbeddingAsync(
-            document.Id,
-            document.Title,
-            embedding,
-            cancellationToken);
-
-        document.MarkAsProcessed();
-
-        await _dbContext.SaveChangesAsync(cancellationToken);
-
-        return Ok(ToResponse(document));
+        return Accepted(new
+        {
+            documentId = id,
+            status = "Queued for processing"
+        });
     }
 
     [HttpGet("{id:guid}")]
